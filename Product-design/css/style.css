@@ -1,0 +1,68 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: navy;
+}
+
+
+.titulo-principal{
+
+    text-align: center;
+    font-size: 3rem;
+    color: aliceblue;
+
+}
+
+
+.container{
+
+    
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    
+    
+    margin: 10px;
+    gap: 20px;
+
+
+}
+
+
+.card{
+
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    color: slateblue;
+    text-align: center;
+    border-radius: 20px;
+    border: solid rgb(100, 100, 185);
+    
+
+}
+
+
+.card > h1{
+    font-size: 1.8rem;
+}
+
+
+
+
+.container-menu{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: underline;
+
+}
+
+
+
+
+
